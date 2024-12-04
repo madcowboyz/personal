@@ -1,0 +1,46 @@
+/* 타이틀영역 */
+div#title{
+    background-image:url(../img/title.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+div#title .container{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+ div#title .container h2{
+    text-transform: uppercase;
+    font-size: 69px;
+    margin-top: 270px;
+    word-spacing: 20px;
+    animation: center 5s 2;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+    font-weight: bold;
+  }
+ div#title .container p{
+    
+  font-size: 20px;
+  font-weight: bold;
+  }
+@keyframes center{
+  0%{
+   color:#2d3436;
+   margin-bottom:-80px;
+  }
+  30%{
+   letter-spacing:30px;
+   margin-bottom:-80px;
+  }
+ 
+  
+
+  

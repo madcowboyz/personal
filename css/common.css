@@ -1,0 +1,17 @@
+body{
+    font-family: "Jua", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: white;
+}
+h2{
+    font-size: 75px;
+  font-weight: 300;
+}
+.h3T{
+    margin-bottom: 50px;
+}
+.block{
+    transform: translateY(800%);
+}

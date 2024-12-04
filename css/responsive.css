@@ -1,0 +1,249 @@
+@media screen and (max-width:768px){
+    /* 머리*/
+  header nav{
+   
+    height: 80px;
+    padding: 0 20px;
+  }
+
+  header nav h1 {
+  }
+  header nav h1 a { 
+  transition: 1s;
+  }
+ 
+  header nav > ul {
+    display: none;
+  }
+
+  .ham{
+    display: flex;
+    transform: scale(0.85);
+  }
+/* 타이틀영역   */
+  div#title .container{
+    
+  transform: translate(-50%,-60%);
+  }
+  div#title .container h2{
+    
+  font-size: 58px;
+  animation: center 2s 1;
+  }
+  
+  
+  
+                                            /* 소개 영역   */
+  
+  section#about {
+  padding: 0;
+  }
+  
+  section#about div.wrap{
+    
+  /*! grid-template-columns: 1fr 1fr; */
+  /*! grid-template-rows: auto auto auto auto auto; */
+  /*! column-gap: 0px; */
+  /*! row-gap: 20px; */
+  /*! margin: 0; */
+  display: flex;
+  flex-direction: column;
+  }
+  section#about h2{
+    
+  grid-column: 1;
+  grid-row: 1;
+  border: 0;
+  padding: 0;
+  width: 100vw;
+  font-size: 40px;
+  justify-content: center;
+  }
+  section#about figure{
+    
+  display: none;
+  }
+  section#about figure img{
+    
+  }
+  section#about p.big{
+    
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  font-size: 20px;
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  }
+  section#about ul.main{
+    
+  grid-column: 1 / span 2;
+  grid-row: 3;
+  }
+  section#about ul.main li{
+    
+  }
+  section#about ul.main li h3{
+    
+  text-align: center;
+  }
+  section#about ul.main li p{
+    
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  }
+  section#about ul.main3{
+  grid-column: 1 / span 2;
+  grid-row: 4;
+  }
+  section#about ul.main3 li{
+    
+  }
+  section#about ul.main3 li h3{
+    
+  text-align: center;
+  }
+  section#about ul.main3 li p{
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  }
+  section#about ul.main2{
+    
+  grid-column: 1 / span 2;
+  grid-row: 5;
+  }
+  section#about ul.main2 li{
+    
+  }
+  section#about ul.main2 li h3{
+    
+  text-align: center;
+  }
+  section#about ul.main2 li p{
+  
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: center;
+}
+                                               /*  스킬  */
+  section#skill{
+    
+  }
+  
+  section#skill h2{
+    
+  font-size: 40px;
+  }
+  section#skill .wrap{
+    
+  margin: 0;
+  min-height: 60vh;
+  }
+  section#skill .s1 ul li{
+    
+  width: 50px;
+  height: 50px;
+    margin-top: 30px;
+  }
+  section#skill .s1 ul li p{
+    
+  margin-top: 55px;
+  }
+  section#skill .s2 ul{
+    
+  justify-content: space-between;
+  }
+  section#skill .s2 ul li{
+    
+  width: 50px;
+  height: 50px;
+    margin-top: 30px;
+  }
+  section#skill .s2 ul li p {
+    margin-top: 55px;
+    font-size: 14px;
+  }
+  section#skill .s3 ul li{
+    
+  width: 50px;
+  height: 50px;
+    margin-top: 30px;
+  }
+  section#skill .s3 ul li p {
+    margin-top: 55px;
+  }
+  section#skill .s4 ul li{
+    
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  }
+  section#skill .s4 ul li p {
+    margin-top: 55px;
+  }
+  
+/*   --------------------------------포트폴리오------   */
+  #portfolio h2{
+    
+  font-size: 40px;
+  }
+  #portfolio .wrap{
+    
+  flex-direction: column;
+  padding: 0;
+  }
+  
+  #portfolio .wrap ul.img li{
+    
+  width: 250px;
+  height: 135px;
+  margin: 0 auto;
+  background-size: contain;
+  border-radius: 120px;
+  }
+  #portfolio .wrap ul.site{
+    
+  padding: 0 40px;
+  }
+  #portfolio .wrap ul.site li{
+    
+  margin: 60px 0;
+  text-align: initial;
+  }
+/* __________________________________________컨택   */
+  #contact h2{
+    
+  font-size: 40px;
+  }
+  #contact .wrap{
+  padding: 0;
+  }
+  #contact .wrap .contact{
+    
+  display: flex;
+  flex-direction: column;
+  }
+  #contact .wrap .contact ul.thk{
+    
+  width: auto;
+  }
+  #contact .wrap .contact ul.num{
+    
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  }
+  #contact .wrap .contact ul.num li{
+    
+  margin-top: 40px;
+  }
+  #contact .wrap .contact ul.num li h6{
+    
+  font-size: 30px;
+  }
+}
+

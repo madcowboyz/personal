@@ -1,0 +1,63 @@
+#portfolio{
+  
+  height: 100vh;
+}
+#portfolio .wrap{
+    
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 0;
+  display: flex;
+  padding: 100px;
+}
+#portfolio  h2{
+font-size: 75px;
+  font-weight: 300;
+  text-align: center;
+padding: 60px 0;
+}
+
+#portfolio .wrap ul.img{
+
+}
+#portfolio .wrap ul.img li{
+
+  background-image: url(../img/kch.jpg);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 400px;
+  /*! display: block; */
+  background-size: cover;
+  background-position: center;
+  border-radius: 80px;
+  font-size: 0;
+}
+#portfolio .wrap ul.site{
+
+  padding: 0 40px 0 75px;
+}
+#portfolio .wrap ul.site h3{
+
+  margin: 20px 0;
+  font-size: 40px;
+  text-align: center;
+}
+#portfolio .wrap ul.site .wrap2{
+  
+}
+#portfolio .wrap ul.site li{
+
+  display: flex;
+  margin: 70px 0;
+  text-align: center;
+  align-items: center;
+}
+#portfolio .wrap ul.site li h4{
+
+  font-size: 30px;
+}
+#portfolio .wrap ul.site li p{
+
+  font-size: 20px;
+  margin-left: 70px;
+}

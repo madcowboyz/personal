@@ -1,0 +1,161 @@
+section#skill {
+  
+  background-color: #103f59;
+  height: auto;
+  border-radius: 160px;
+  height: 100vh;
+}
+
+
+
+section#skill h2 {
+  
+  font-size: 75px;
+  font-weight: 300;
+  text-align: center;
+  padding: 60px 0;
+}
+section#skill .wrap {
+  
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  max-width: 1600px;
+  margin-left: 260px;
+}
+section#skill .s1 {
+  
+  margin: 25px 0;
+}
+section#skill .s1 h3 {
+  
+}
+section#skill .s1 ul {
+  
+  display: flex;
+  justify-content: space-evenly;
+  gap: calc((100% - 1440px) / 2);
+}
+section#skill .s1 ul li{
+
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#skill .s1 ul li p{
+  
+  margin-top: 111px;
+}
+section#skill .s2 {
+  
+  margin: 25px 0;
+}
+section#skill .s2 h3 {
+  
+}
+section#skill .s2 ul {
+  
+  display: flex;
+  justify-content: center;
+  gap: calc((100% - 1440px) / 2);
+}
+section#skill .s2 ul li{
+
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#skill .s2 ul li p {
+  margin-top: 111px;
+}
+section#skill .s3 {
+  
+  margin: 25px 0;
+}
+section#skill .s3 h3 {
+  
+}
+section#skill .s3 ul {
+  
+  display: flex;
+  justify-content: space-around;
+  gap: calc((100% - 1440px) / 2);
+}
+section#skill .s3 ul li{
+
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#skill .s3 ul li p {
+  margin-top: 111px;
+}
+section#skill .s4 {
+  
+  margin: 25px 0;
+}
+section#skill .s4 h3 {
+  
+}
+section#skill .s4 ul {
+  
+  display: flex;
+  justify-content: space-evenly;
+  gap: calc((100% - 1440px) / 2);
+}
+section#skill .s4 ul li{
+
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#skill .s4 ul li p {
+  margin-top: 111px;
+}
+section#skill .s1 ul li:nth-child(1){
+  
+  background-image: url(../img/html.png);
+}
+section#skill .s1 ul li:nth-child(2){
+  
+  background-image: url(../img/css.png);
+}
+section#skill .s1 ul li:nth-child(3){
+  background-image: url(../img/js.png);
+}
+section#skill .s2 ul li:nth-child(1){
+  background-image: url(../img/ps.png);
+}
+section#skill .s2 ul li:nth-child(2){
+  background-image: url(../img/ai.png);
+}
+section#skill .s3 ul li:nth-child(1){
+  background-image: url(../img/vs.svg);
+}
+section#skill .s3 ul li:nth-child(2){
+  background-image: url(../img/atom.png);
+}
+section#skill .s4 ul li:nth-child(1){
+  background-image: url(../img/github.png);
+}
+section#skill .s4 ul li:nth-child(2){
+  background-image: url(../img/gd.png);
+}
+
+

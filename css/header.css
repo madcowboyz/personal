@@ -1,0 +1,94 @@
+/* 상단영역 */
+header{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+header nav:hover{
+  transform: translateY(-20px);
+}
+header nav {
+  
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+  margin: 0 auto;
+}
+header nav .mobileMenu{
+  
+}
+header nav h1{
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+header nav h1 a{
+  
+  font-size: 0;
+  background-image: url(../img/headerlogo1.png);
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 2s;
+  /*! box-sizing: border-box; */
+}
+header nav h1 a:hover{
+  
+  transform: rotate(360deg);
+}
+
+header nav ul{
+  display: flex;
+  gap: 20px;
+}
+header nav ul.gnb{
+  font-size: 21px;
+  font-weight: bold;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 90px;
+}
+header nav ul.gnb li{
+  
+  /*! padding-right: 60px; */
+}
+header nav ul.gnb li a{
+  
+  transition: 1s;
+}
+header nav ul.gnb li a:hover{
+  color: #eee;
+}
+header nav ul.enb{
+  
+}
+header nav ul.enb li{
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+}
+header nav ul.enb li:nth-child(1){
+  background-image: url(../img/svg/kakao.svg);
+}
+header nav ul.enb li:nth-child(2){
+  background-image: url(../img/svg/insta.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav ul.enb li a{
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+
+
+
+
+
+
